@@ -8,7 +8,7 @@ const flowMas = addKeyword(['Si', 'Sí', 'Por favor', 'Porfavor']).addAnswer('�
 
 const flowFin = addKeyword(['No', 'Gracias', 'Es todo']).addAnswer('Fue un placer poder ayudarte 😁, si deseas volver al incio escribe: Menú ');
 
-const flowAdios = addKeyword('Hasta luego', 'Chao', 'Chau', 'Adios', 'Adiós', 'Nos vemos').addAnswer('Fue un placer poderte ayudar 😁, si deseas volver al incio escribe: Menú ');
+const flowAdios = addKeyword('Hasta luego', 'Chao', 'Chau', 'Adios', 'Adiós', 'Nos vemos').addAnswer('Fue un placer poder ayudarte 😁, si deseas volver al incio escribe: Menú ');
 
 const flowCotizar = addKeyword('1', { sensitive: true }).addAnswer(
     [
