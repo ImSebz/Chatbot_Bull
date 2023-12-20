@@ -8,7 +8,7 @@ const flowMas = addKeyword(['Si', 'Sí', 'Por favor', 'Porfavor']).addAnswer('�
 
 const flowFin = addKeyword(['No', 'Gracias', 'Es todo']).addAnswer('Fue un placer poder ayudarte 😁, si deseas volver al incio escribe: Menú ');
 
-const flowAdios = addKeyword('Hasta luego', 'Chao', 'Adios', 'Adiós', 'Nos vemos').addAnswer('Fue un placer poderte ayudar 😁, si deseas volver al incio escribe: Menú ');
+const flowAdios = addKeyword('Hasta luego', 'Chao', 'Chau', 'Adios', 'Adiós', 'Nos vemos').addAnswer('Fue un placer poderte ayudar 😁, si deseas volver al incio escribe: Menú ');
 
 const flowCotizar = addKeyword('1', { sensitive: true }).addAnswer(
     [
@@ -28,7 +28,7 @@ const flowCotizar = addKeyword('1', { sensitive: true }).addAnswer(
         '\n*Recepción* Para contacto con una persona.',
     ])
     .addAnswer('¿Necesitas ayuda con algo más?', {
-        delay: 5000
+        delay: 4000
     })
 
 
@@ -49,7 +49,7 @@ const flowVacantes = addKeyword('2', { sensitive: true }).addAnswer(
         '\n*Recepción* Para contacto con una persona.',
     ])
     .addAnswer('¿Necesitas ayuda con algo más?', {
-        delay: 5000
+        delay: 4000
     })
 
 
@@ -58,7 +58,7 @@ const flowComentario = addKeyword('3', { sensitive: true }).addAnswer(
         '🙌 Para brindarnos tu comentario, PQR o reseña puedes escribirnos en:',
         ' ',
         '✔️ https://www.bullmarketing.com.co/contactenos/',
-        ' ',    
+        ' ',
         'También a nuestro correo electrónico:',
         ' ',
         '✔️ info@bullmarketing.com.co',
@@ -67,7 +67,7 @@ const flowComentario = addKeyword('3', { sensitive: true }).addAnswer(
         '\n*Recepción* Para contacto con una persona.',
     ])
     .addAnswer('¿Necesitas ayuda con algo más?', {
-        delay: 5000
+        delay: 4000
     })
 
 const flowRRHH = addKeyword('4', { sensitive: true }).addAnswer(
@@ -87,7 +87,7 @@ const flowRRHH = addKeyword('4', { sensitive: true }).addAnswer(
         '\n*Recepción* Para contacto con una persona.',
     ])
     .addAnswer('¿Necesitas ayuda con algo más?', {
-        delay: 5000
+        delay: 4000
     })
 
 const flowContabilidad = addKeyword('5', { sensitive: true }).addAnswer(
@@ -105,7 +105,7 @@ const flowContabilidad = addKeyword('5', { sensitive: true }).addAnswer(
         '\n*Recepción* Para contacto con una persona.',
     ])
     .addAnswer('¿Necesitas ayuda con algo más?', {
-        delay: 5000
+        delay: 4000
     })
 
 const flowTesoreria = addKeyword('6', { sensitive: true }).addAnswer(
@@ -122,7 +122,7 @@ const flowTesoreria = addKeyword('6', { sensitive: true }).addAnswer(
         '\n*Recepción* Para contacto con una persona.',
     ])
     .addAnswer('¿Necesitas ayuda con algo más?', {
-        delay: 5000
+        delay: 4000
     })
 
 const flowProveedores = addKeyword('7', { sensitive: true }).addAnswer(
@@ -139,7 +139,7 @@ const flowProveedores = addKeyword('7', { sensitive: true }).addAnswer(
         '\n*Recepción* Para contacto con una persona.',
     ])
     .addAnswer('¿Necesitas ayuda con algo más?', {
-        delay: 5000
+        delay: 4000
     })
 
 const flowCertificaciones = addKeyword('8', { sensitive: true }).addAnswer(
@@ -159,14 +159,14 @@ const flowCertificaciones = addKeyword('8', { sensitive: true }).addAnswer(
         '\n*Recepción* Para contacto con una persona.',
     ])
     .addAnswer('¿Necesitas ayuda con algo más?', {
-        delay: 5000
+        delay: 4000
     })
 
 const flowPrincipal = addKeyword(['hola', 'holi', 'holu', 'ole', 'alo', 'oli', 'buenas', 'buenos días', 'buenas tardes', 'buenas noches', 'Menu', 'Menú'])
     .addAnswer('Hola 👋, bienvenido a Bull Marketing la agencia donde ¡siempre se puede!')
     .addAnswer(
         [
-            '¡Comencemos! ¿En qué te podemos ayudar? 🙌',   
+            '¡Comencemos! ¿En qué te podemos ayudar? 🙌',
             'Por favor digita el numero de la opción que desees:',
             ' ',
             '👉 *1.Cotizar* Deseo cotizar un servicio.',
