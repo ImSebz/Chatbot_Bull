@@ -6,9 +6,9 @@ const MockAdapter = require('@bot-whatsapp/database/mock')
 
 const flowMas = addKeyword(['Si', 'Sí', 'Por favor', 'Porfavor']).addAnswer('✔️ Si deseas volver al menú principal, por favor escribe: Menú');
 
-const flowFin = addKeyword(['No', 'Gracias', 'Es todo']).addAnswer('Fue un placer poder ayudarte 😁, si deseas volver al incio escribe: Menú ');
+const flowFin = addKeyword(['No', 'Gracias', 'Es todo']).addAnswer('Fue un placer poder ayudarte 😁, si deseas volver al inicio escribe: Menú ');
 
-const flowAdios = addKeyword(['Hasta luego', 'Chao', 'Chau', 'Adios', 'Adiós', 'Nos vemos']).addAnswer('Fue un placer poder ayudarte 😁, si deseas volver al incio escribe: Menú ');
+const flowAdios = addKeyword(['Hasta luego', 'Chao', 'Chau', 'Adios', 'Adiós', 'Nos vemos']).addAnswer('Fue un placer poder ayudarte 😁, si deseas volver al inicio escribe: Menú ');
 
 const flowCotizar = addKeyword('1', { sensitive: true }).addAnswer(
     [
