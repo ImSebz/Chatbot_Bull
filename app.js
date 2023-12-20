@@ -139,7 +139,7 @@ const flowProveedores = addKeyword('7', { sensitive: true }).addAnswer(
         '\n*Recepción* Para contacto con una persona.',
     ])
     .addAnswer('¿Necesitas ayuda con algo más?', {
-        delay: 15001500
+        delay: 1500
     })
 
 const flowCertificaciones = addKeyword('8', { sensitive: true }).addAnswer(
