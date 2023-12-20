@@ -4,11 +4,11 @@ const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const MockAdapter = require('@bot-whatsapp/database/mock')
 
-const flowMas = addKeyword(['Si', 'Por favor', 'Porfavor']).addAnswer('✔️ Si deseas volver al menú principal, por favor escribe: Menu');
+const flowMas = addKeyword(['Si', 'Sí', 'Por favor', 'Porfavor']).addAnswer('✔️ Si deseas volver al menú principal, por favor escribe: Menú');
 
-const flowFin = addKeyword(['No', 'Gracias', 'Es todo']).addAnswer('Fue un placer poderte ayudar 😁, si deseas volver al incio escribe: Menu ');
+const flowFin = addKeyword(['No', 'Gracias', 'Es todo']).addAnswer('Fue un placer poder ayudarte 😁, si deseas volver al incio escribe: Menú ');
 
-const flowAdios = addKeyword('Hasta luego', 'Chao', 'Adios', 'Nos vemos').addAnswer('Fue un placer poderte ayudar 😁, si deseas volver al incio escribe: Menu ');
+const flowAdios = addKeyword('Hasta luego', 'Chao', 'Adios', 'Adiós', 'Nos vemos').addAnswer('Fue un placer poderte ayudar 😁, si deseas volver al incio escribe: Menú ');
 
 const flowCotizar = addKeyword('1', { sensitive: true }).addAnswer(
     [
@@ -24,7 +24,7 @@ const flowCotizar = addKeyword('1', { sensitive: true }).addAnswer(
         'También puedes compartirnos tu Brief o idea en el siguiente enlace:',
         'https://www.bullmarketing.com.co/cuentanos-brief/',
         ' ',
-        '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permitenos y en un lapsus inferior a las 48hrs te estaremos contáctando._*',
+        '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permítenos y en un lapso inferior a las 48hrs te estaremos contáctando._*',
         '\n*Recepción* Para contacto con una persona.',
     ])
     .addAnswer('¿Necesitas ayuda con algo más?', {
@@ -44,7 +44,7 @@ const flowVacantes = addKeyword('2', { sensitive: true }).addAnswer(
         ' ',
         '📝 https://www.bullmarketing.com.co/formulario-hoja-de-vida/',
         ' ',
-        '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permitenos y en un lapsus inferior a las 48hrs te estaremos contáctando._*',
+        '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permítenos y en un lapso inferior a las 48hrs te estaremos contáctando._*',
         ' ',
         '\n*Recepción* Para contacto con una persona.',
     ])
@@ -58,12 +58,12 @@ const flowComentario = addKeyword('3', { sensitive: true }).addAnswer(
         '🙌 Para brindarnos tu comentario, PQR o reseña puedes escribirnos en:',
         ' ',
         '✔️ https://www.bullmarketing.com.co/contactenos/',
-        ' ',
+        ' ',    
         'También a nuestro correo electrónico:',
         ' ',
         '✔️ info@bullmarketing.com.co',
         ' ',
-        '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permitenos y en un lapsus inferior a las 48hrs te estaremos contáctando._*',
+        '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permítenos y en un lapso inferior a las 48hrs te estaremos contactando._*',
         '\n*Recepción* Para contacto con una persona.',
     ])
     .addAnswer('¿Necesitas ayuda con algo más?', {
@@ -82,7 +82,7 @@ const flowRRHH = addKeyword('4', { sensitive: true }).addAnswer(
         ' ',
         '☞ https://hab.me/lyIqKnS',
         ' ',
-        '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permitenos y en un lapsus inferior a las 48hrs te estaremos contáctando._*',
+        '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permítenos y en un lapso inferior a las 48hrs te estaremos contáctando._*',
         ' ',
         '\n*Recepción* Para contacto con una persona.',
     ])
@@ -101,7 +101,7 @@ const flowContabilidad = addKeyword('5', { sensitive: true }).addAnswer(
         '☞ contadores@bullmarketing.com.co',
         '☞ contabilidad@v2vmarketing.com',
         ' ',
-        '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permitenos y en un lapsus inferior a las 48hrs te estaremos contáctando._*',
+        '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permítenos y en un lapso inferior a las 48hrs te estaremos contáctando._*',
         '\n*Recepción* Para contacto con una persona.',
     ])
     .addAnswer('¿Necesitas ayuda con algo más?', {
@@ -118,7 +118,7 @@ const flowTesoreria = addKeyword('6', { sensitive: true }).addAnswer(
         ' ',
         '☞ tesoreria@bullmarketing.com.co',
         ' ',
-        '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permitenos y en un lapsus inferior a las 48hrs te estaremos contáctando._*',
+        '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permítenos y en un lapso inferior a las 48hrs te estaremos contáctando._*',
         '\n*Recepción* Para contacto con una persona.',
     ])
     .addAnswer('¿Necesitas ayuda con algo más?', {
@@ -135,7 +135,7 @@ const flowProveedores = addKeyword('7', { sensitive: true }).addAnswer(
         ' ',
         '☞ Compras@bullmarketing.com.co',
         ' ',
-        '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permitenos y en un lapsus inferior a las 48hrs te estaremos contáctando._*',
+        '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permítenos y en un lapso inferior a las 48hrs te estaremos contáctando._*',
         '\n*Recepción* Para contacto con una persona.',
     ])
     .addAnswer('¿Necesitas ayuda con algo más?', {
@@ -144,7 +144,7 @@ const flowProveedores = addKeyword('7', { sensitive: true }).addAnswer(
 
 const flowCertificaciones = addKeyword('8', { sensitive: true }).addAnswer(
     [
-        '🙌 Claro! al siguiente correo adjunta los siguientes datos para poderte generar tu certificado laborar:',
+        '🙌 Claro! al siguiente correo adjunta los siguientes datos para poderte generar tu certificado laboral:',
 
         //recepcion@bullmarketing.com.co
         ' ',
@@ -155,18 +155,18 @@ const flowCertificaciones = addKeyword('8', { sensitive: true }).addAnswer(
         '3. Correo electrónico',
         '4. Proyecto',
         ' ',
-        '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permitenos y en un lapsus inferior a las 48hrs te estaremos contáctando._*',
+        '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permítenos y en un lapso inferior a las 48hrs te estaremos contáctando._*',
         '\n*Recepción* Para contacto con una persona.',
     ])
     .addAnswer('¿Necesitas ayuda con algo más?', {
         delay: 5000
     })
 
-const flowPrincipal = addKeyword(['hola', 'holi', 'holu', 'ole', 'alo', 'oli', 'buenas', 'buenos días', 'buenas tardes', 'buenas noches', 'Menu'])
+const flowPrincipal = addKeyword(['hola', 'holi', 'holu', 'ole', 'alo', 'oli', 'buenas', 'buenos días', 'buenas tardes', 'buenas noches', 'Menu', 'Menú'])
     .addAnswer('Hola 👋, bienvenido a Bull Marketing la agencia donde ¡siempre se puede!')
     .addAnswer(
         [
-            '¡Comencemos! ¿En que te podemos ayudar? 🙌',
+            '¡Comencemos! ¿En qué te podemos ayudar? 🙌',   
             'Por favor digita el numero de la opción que desees:',
             ' ',
             '👉 *1.Cotizar* Deseo cotizar un servicio.',
@@ -179,8 +179,8 @@ const flowPrincipal = addKeyword(['hola', 'holi', 'holu', 'ole', 'alo', 'oli', '
             '👉 *8.Certificaciones* Certificaciones laborales',
         ])
 
-        // flowCotizar, flowVacantes, flowComentario, flowRRHH, flowContabilidad, flowTesoreria, flowProveedores, flowCertificaciones
-        
+// flowCotizar, flowVacantes, flowComentario, flowRRHH, flowContabilidad, flowTesoreria, flowProveedores, flowCertificaciones
+
 const main = async () => {
     const adapterDB = new MockAdapter()
     const adapterFlow = createFlow([flowPrincipal, flowCotizar, flowVacantes, flowComentario, flowRRHH, flowContabilidad, flowTesoreria, flowProveedores, flowCertificaciones, flowFin, flowMas, flowAdios])
