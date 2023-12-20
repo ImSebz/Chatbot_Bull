@@ -8,7 +8,7 @@ const flowMas = addKeyword(['Si', 'Sí', 'Por favor', 'Porfavor']).addAnswer('�
 
 const flowFin = addKeyword(['No', 'Gracias', 'Es todo']).addAnswer('Fue un placer poder ayudarte 😁, si deseas volver al incio escribe: Menú ');
 
-const flowAdios = addKeyword('Hasta luego', 'Chao', 'Chau', 'Adios', 'Adiós', 'Nos vemos').addAnswer('Fue un placer poder ayudarte 😁, si deseas volver al incio escribe: Menú ');
+const flowAdios = addKeyword(['Hasta luego', 'Chao', 'Chau', 'Adios', 'Adiós', 'Nos vemos']).addAnswer('Fue un placer poder ayudarte 😁, si deseas volver al incio escribe: Menú ');
 
 const flowCotizar = addKeyword('1', { sensitive: true }).addAnswer(
     [
@@ -152,8 +152,7 @@ const flowCertificaciones = addKeyword('8', { sensitive: true }).addAnswer(
         ' ',
         '1. Número de documento',
         '2. Nombres y Apellidos Completos',
-        '3. Correo electrónico',
-        '4. Proyecto',
+        '3. Proyecto',
         ' ',
         '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permítenos y en un lapso inferior a las 48hrs te estaremos contáctando._*',
         '\n*Recepción* Para contacto con una persona.',
