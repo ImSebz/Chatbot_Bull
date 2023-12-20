@@ -2,316 +2,10 @@
   key: {
     remoteJid: '573204773369@s.whatsapp.net',
     fromMe: false,
-    id: '8FB705501BABB5A35B82C9473EBAB925',
+    id: '2800E51C175592BFF80AFA316743F219',
     participant: undefined
   },
-  messageTimestamp: 1703109534,
-  pushName: 'Sebastian Camargo',
-  broadcast: false,
-  message: Message {
-    conversation: 'Chao',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Chao',
-  from: '573204773369'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_36cd3f50-d26f-47dd-aec0-21eb732dac2f',
-  keyword: 'key_b21a96d1-4247-4719-9a84-684c55cd66c0',
-  answer: 'Fue un placer poder ayudarte 😁, si deseas volver al incio escribe: Menú ',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '369f20f087f31920149f1fdbddc187da'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573204773369@s.whatsapp.net',
-    fromMe: false,
-    id: '6054416228F99A779FC9F01E4AF583D8',
-    participant: undefined
-  },
-  messageTimestamp: 1703109542,
-  pushName: 'Sebastian Camargo',
-  broadcast: false,
-  message: Message {
-    conversation: 'Menu',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Menu',
-  from: '573204773369'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_a03a09d9-3e26-4a0c-9cea-d67109c03a13',
-  keyword: 'key_4c06be39-48bd-4e46-8768-8702a8302257',
-  answer: 'Hola 👋, bienvenido a Bull Marketing la agencia donde ¡siempre se puede!',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '10965782c889ba322fc9ec23735594fb'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_273e643c-a642-46bd-9fd7-4331709fff06',
-  keyword: 'ans_a03a09d9-3e26-4a0c-9cea-d67109c03a13',
-  answer: '¡Comencemos! ¿En qué te podemos ayudar? 🙌\n' +
-    'Por favor digita el numero de la opción que desees:\n' +
-    ' \n' +
-    '👉 *1.Cotizar* Deseo cotizar un servicio.\n' +
-    '👉 *2.Vacantes* Deseo trabajar con ustedes.\n' +
-    '👉 *3.Comentario* Deseo dejar un comentario.\n' +
-    '👉 *4.RRHH* Deseo comunicarme con Recurso Humano.\n' +
-    '👉 *5.Contabilidad* Deseo comunicarme con Contabilidad.\n' +
-    '👉 *6.Tesorería* Deseo comunicarme con Tesorería.\n' +
-    '👉 *7.Proveedores* Deseo comunicarme con Proveedores y Compras.\n' +
-    '👉 *8.Certificaciones* Certificaciones laborales',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'a2a3263d9d9fa83eba9c32c441dc92f4'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573204773369@s.whatsapp.net',
-    fromMe: false,
-    id: '1979F40E62F48DB1108A176C9437428D',
-    participant: undefined
-  },
-  messageTimestamp: 1703109546,
-  pushName: 'Sebastian Camargo',
-  broadcast: false,
-  message: Message {
-    conversation: '6',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '6',
-  from: '573204773369'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_74dd24be-359b-40bc-81ec-1bd56fc03707',
-  keyword: 'key_f4d2a363-3488-4bed-b579-ffc822fe8c1f',
-  answer: '🙌 ¡Claro! ingresa al siguiente enlace que te direccionará con la persona del área encargada de tesorería:\n' +
-    ' \n' +
-    '☞ https://bit.ly/3YzxWF0\n' +
-    ' \n' +
-    'También puedes escribirnos a los siguiente correo:\n' +
-    ' \n' +
-    '☞ tesoreria@bullmarketing.com.co\n' +
-    ' \n' +
-    '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permítenos y en un lapso inferior a las 48hrs te estaremos contáctando._*\n' +
-    '\n' +
-    '*Recepción* Para contacto con una persona.',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'a43be36f0100236582ed3a6196bb1cfa'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573204773369@s.whatsapp.net',
-    fromMe: false,
-    id: '936B1EEB5AB486EFF4270A90B9AD1EAE',
-    participant: undefined
-  },
-  messageTimestamp: 1703109549,
-  pushName: 'Sebastian Camargo',
-  broadcast: false,
-  message: Message {
-    conversation: 'Chao',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Chao',
-  from: '573204773369'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573204773369@s.whatsapp.net',
-    fromMe: false,
-    id: '2E4DA17332D7676EDE447A682CCFBD78',
-    participant: undefined
-  },
-  messageTimestamp: 1703109552,
-  pushName: 'Sebastian Camargo',
-  broadcast: false,
-  message: Message {
-    conversation: 'Adiós',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Adiós',
-  from: '573204773369'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573204773369@s.whatsapp.net',
-    fromMe: false,
-    id: 'FF19D1DED028BA56219611225F1B9899',
-    participant: undefined
-  },
-  messageTimestamp: 1703109555,
-  pushName: 'Sebastian Camargo',
-  broadcast: false,
-  message: Message {
-    conversation: 'Adios',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Adios',
-  from: '573204773369'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_36cd3f50-d26f-47dd-aec0-21eb732dac2f',
-  keyword: 'key_b21a96d1-4247-4719-9a84-684c55cd66c0',
-  answer: 'Fue un placer poder ayudarte 😁, si deseas volver al incio escribe: Menú ',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '369f20f087f31920149f1fdbddc187da'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573204773369@s.whatsapp.net',
-    fromMe: false,
-    id: 'F37BA89924966AF2909C2168574C245D',
-    participant: undefined
-  },
-  messageTimestamp: 1703109564,
-  pushName: 'Sebastian Camargo',
-  broadcast: false,
-  message: Message {
-    conversation: 'Sí',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Sí',
-  from: '573204773369'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_bf3f845a-0960-4417-a46e-20dc0eccc580',
-  keyword: 'key_4fad3137-af26-4d3c-b2be-e54b5caded3f',
-  answer: '✔️ Si deseas volver al menú principal, por favor escribe: Menú',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '608ded92f121bc25ad9afce66fb3b2da'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573204773369@s.whatsapp.net',
-    fromMe: false,
-    id: 'E6BC95FBC5E73078E058DDE94A8334B5',
-    participant: undefined
-  },
-  messageTimestamp: 1703109573,
-  pushName: 'Sebastian Camargo',
-  broadcast: false,
-  message: Message {
-    conversation: 'Adiós',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Adiós',
-  from: '573204773369'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_36cd3f50-d26f-47dd-aec0-21eb732dac2f',
-  keyword: 'key_b21a96d1-4247-4719-9a84-684c55cd66c0',
-  answer: 'Fue un placer poder ayudarte 😁, si deseas volver al incio escribe: Menú ',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '369f20f087f31920149f1fdbddc187da'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573204773369@s.whatsapp.net',
-    fromMe: false,
-    id: '8A84A874E734AA3F144D950F15EAF68B',
-    participant: undefined
-  },
-  messageTimestamp: 1703109577,
+  messageTimestamp: 1703109686,
   pushName: 'Sebastian Camargo',
   broadcast: false,
   message: Message {
@@ -325,8 +19,8 @@
   from: '573204773369'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_a03a09d9-3e26-4a0c-9cea-d67109c03a13',
-  keyword: 'key_4c06be39-48bd-4e46-8768-8702a8302257',
+  ref: 'ans_0510c522-3077-4ede-98d4-47c6c80935f7',
+  keyword: 'key_e01000af-8883-4c8a-a129-1d9c8a310fb0',
   answer: 'Hola 👋, bienvenido a Bull Marketing la agencia donde ¡siempre se puede!',
   options: {
     media: null,
@@ -340,11 +34,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '10965782c889ba322fc9ec23735594fb'
+  refSerialize: '35652333a76286eba76cfb6caf9283a0'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_273e643c-a642-46bd-9fd7-4331709fff06',
-  keyword: 'ans_a03a09d9-3e26-4a0c-9cea-d67109c03a13',
+  ref: 'ans_d64de46a-47ed-462c-9d33-d364aff4d8c7',
+  keyword: 'ans_0510c522-3077-4ede-98d4-47c6c80935f7',
   answer: '¡Comencemos! ¿En qué te podemos ayudar? 🙌\n' +
     'Por favor digita el numero de la opción que desees:\n' +
     ' \n' +
@@ -368,38 +62,39 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'a2a3263d9d9fa83eba9c32c441dc92f4'
+  refSerialize: 'a4f3b53a1e44bd1176e04eb14a36a24a'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '573204773369@s.whatsapp.net',
     fromMe: false,
-    id: '7DFB2E1179B21505A4C58D53FACD979B',
+    id: '938A74CE4B52C84E98825EF457D4394B',
     participant: undefined
   },
-  messageTimestamp: 1703109579,
+  messageTimestamp: 1703109690,
   pushName: 'Sebastian Camargo',
   broadcast: false,
   message: Message {
-    conversation: '6',
+    conversation: '5',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: '6',
+  body: '5',
   from: '573204773369'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_74dd24be-359b-40bc-81ec-1bd56fc03707',
-  keyword: 'key_f4d2a363-3488-4bed-b579-ffc822fe8c1f',
-  answer: '🙌 ¡Claro! ingresa al siguiente enlace que te direccionará con la persona del área encargada de tesorería:\n' +
+  ref: 'ans_8ad10f10-3e24-4791-9b1f-ae3ac83fafab',
+  keyword: 'key_ed3beb62-5e04-4c78-bb2c-94f820e71567',
+  answer: '🙌 ¡Claro! ingresa al siguiente enlace que te direccionará con la persona del área encargada de contabilidad:\n' +
     ' \n' +
-    '☞ https://bit.ly/3YzxWF0\n' +
+    '☞ https://bit.ly/3YCPIHx\n' +
     ' \n' +
-    'También puedes escribirnos a los siguiente correo:\n' +
+    'También puedes escribirnos a los siguientes correos:\n' +
     ' \n' +
-    '☞ tesoreria@bullmarketing.com.co\n' +
+    '☞ contadores@bullmarketing.com.co\n' +
+    '☞ contabilidad@v2vmarketing.com\n' +
     ' \n' +
     '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permítenos y en un lapso inferior a las 48hrs te estaremos contáctando._*\n' +
     '\n' +
@@ -416,11 +111,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'a43be36f0100236582ed3a6196bb1cfa'
+  refSerialize: '8b8f6341cb30bea710e0a03d7c67a872'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_1a8fd29b-344f-403a-919a-979cf5424ea0',
-  keyword: 'ans_74dd24be-359b-40bc-81ec-1bd56fc03707',
+  ref: 'ans_a68cbe11-e94f-4897-bd1f-a19fa66d99fc',
+  keyword: 'ans_8ad10f10-3e24-4791-9b1f-ae3ac83fafab',
   answer: '¿Necesitas ayuda con algo más?',
   options: {
     media: null,
@@ -434,16 +129,16 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'ce085be44951bef8af71cb713d0e6cdb'
+  refSerialize: '8ddc0db8992cc6e4f339d84fd100a346'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '573204773369@s.whatsapp.net',
     fromMe: false,
-    id: '81D1478ECDA6CD501CE049A2B4322FA0',
+    id: 'CD3B62EE33F141EE64E0B13CD2F4B8E9',
     participant: undefined
   },
-  messageTimestamp: 1703109586,
+  messageTimestamp: 1703109721,
   pushName: 'Sebastian Camargo',
   broadcast: false,
   message: Message {
@@ -457,16 +152,15 @@
   from: '573204773369'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_478f540c-a62d-47a6-bd9a-b3f1e666a903',
-  keyword: 'key_57f0d3a6-bc21-46cc-8886-ced7483ffa57',
+  ref: 'ans_adddaf5f-5811-4040-a6a3-c722af8ce306',
+  keyword: 'key_c90eebb8-ea21-42da-92ff-7ef67ad0dd0d',
   answer: '🙌 Claro! al siguiente correo adjunta los siguientes datos para poderte generar tu certificado laboral:\n' +
     ' \n' +
     '☞ recepcion@bullmarketing.com.co\n' +
     ' \n' +
     '1. Número de documento\n' +
     '2. Nombres y Apellidos Completos\n' +
-    '3. Correo electrónico\n' +
-    '4. Proyecto\n' +
+    '3. Proyecto\n' +
     ' \n' +
     '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permítenos y en un lapso inferior a las 48hrs te estaremos contáctando._*\n' +
     '\n' +
@@ -483,11 +177,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'e5d3f152e2a1e2b0b2c00265dbe039ee'
+  refSerialize: '9a3220251f9aae94a60abf419a1aaf2d'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_0788c26c-7e42-4423-b53a-029bde699124',
-  keyword: 'ans_478f540c-a62d-47a6-bd9a-b3f1e666a903',
+  ref: 'ans_c625ad78-5a79-405b-82f4-0424ff046a3d',
+  keyword: 'ans_adddaf5f-5811-4040-a6a3-c722af8ce306',
   answer: '¿Necesitas ayuda con algo más?',
   options: {
     media: null,
@@ -501,5 +195,5 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '05560224dae4f6dc74082d337fc0bc15'
+  refSerialize: 'de2ee23b6f6534818ad438ec1e2ac9b5'
 }

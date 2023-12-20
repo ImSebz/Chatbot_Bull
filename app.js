@@ -144,11 +144,11 @@ const flowProveedores = addKeyword('7', { sensitive: true }).addAnswer(
 
 const flowCertificaciones = addKeyword('8', { sensitive: true }).addAnswer(
     [
-        '🙌 Claro! al siguiente correo adjunta los siguientes datos para poderte generar tu certificado laboral:',
+        '🙌 Claro! al siguiente correo adjunta los datos requeridos para poder generarte tu certificado laboral:',
 
         //recepcion@bullmarketing.com.co
         ' ',
-        '☞ recepcion@bullmarketing.com.co',
+        '➜📬 recepcion@bullmarketing.com.co',
         ' ',
         '1. Número de documento',
         '2. Nombres y Apellidos Completos',
