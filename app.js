@@ -28,7 +28,7 @@ const flowCotizar = addKeyword('1', { sensitive: true }).addAnswer(
         '\n*Recepción* Para contacto con una persona.',
     ])
     .addAnswer('¿Necesitas ayuda con algo más?', {
-        delay: 4000
+        delay: 1500
     })
 
 
@@ -49,7 +49,7 @@ const flowVacantes = addKeyword('2', { sensitive: true }).addAnswer(
         '\n*Recepción* Para contacto con una persona.',
     ])
     .addAnswer('¿Necesitas ayuda con algo más?', {
-        delay: 4000
+        delay: 1500
     })
 
 
@@ -67,7 +67,7 @@ const flowComentario = addKeyword('3', { sensitive: true }).addAnswer(
         '\n*Recepción* Para contacto con una persona.',
     ])
     .addAnswer('¿Necesitas ayuda con algo más?', {
-        delay: 4000
+        delay: 1500
     })
 
 const flowRRHH = addKeyword('4', { sensitive: true }).addAnswer(
@@ -87,7 +87,7 @@ const flowRRHH = addKeyword('4', { sensitive: true }).addAnswer(
         '\n*Recepción* Para contacto con una persona.',
     ])
     .addAnswer('¿Necesitas ayuda con algo más?', {
-        delay: 4000
+        delay: 1500
     })
 
 const flowContabilidad = addKeyword('5', { sensitive: true }).addAnswer(
@@ -105,7 +105,7 @@ const flowContabilidad = addKeyword('5', { sensitive: true }).addAnswer(
         '\n*Recepción* Para contacto con una persona.',
     ])
     .addAnswer('¿Necesitas ayuda con algo más?', {
-        delay: 4000
+        delay: 1500
     })
 
 const flowTesoreria = addKeyword('6', { sensitive: true }).addAnswer(
@@ -122,7 +122,7 @@ const flowTesoreria = addKeyword('6', { sensitive: true }).addAnswer(
         '\n*Recepción* Para contacto con una persona.',
     ])
     .addAnswer('¿Necesitas ayuda con algo más?', {
-        delay: 4000
+        delay: 1500
     })
 
 const flowProveedores = addKeyword('7', { sensitive: true }).addAnswer(
@@ -139,7 +139,7 @@ const flowProveedores = addKeyword('7', { sensitive: true }).addAnswer(
         '\n*Recepción* Para contacto con una persona.',
     ])
     .addAnswer('¿Necesitas ayuda con algo más?', {
-        delay: 4000
+        delay: 15001500
     })
 
 const flowCertificaciones = addKeyword('8', { sensitive: true }).addAnswer(
@@ -158,7 +158,7 @@ const flowCertificaciones = addKeyword('8', { sensitive: true }).addAnswer(
         '\n*Recepción* Para contacto con una persona.',
     ])
     .addAnswer('¿Necesitas ayuda con algo más?', {
-        delay: 4000
+        delay: 1500
     })
 
 const flowPrincipal = addKeyword(['hola', 'holi', 'holu', 'ole', 'alo', 'oli', 'buenas', 'buenos días', 'buenas tardes', 'buenas noches', 'Menu', 'Menú'])
