@@ -4,9 +4,11 @@ const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const MockAdapter = require('@bot-whatsapp/database/mock')
 
-const flowSecundario = addKeyword(['Recepción', 'Recepcion', 'agente', 'Persona']).addAnswer(['En un momento nos pondremos en contacto'])
+const flowMas = addKeyword(['Si', 'Por favor', 'Porfavor']).addAnswer('Si deseas volver al menú principal, por favor escribe: Menu');
 
-const flowCotizar = addKeyword([{ keyword: '1', exact: true }, 'cotizar', 'cotización', 'propuesta',]).addAnswer(
+const flowFin = addKeyword(['No', 'Gracias', 'Es todo']).addAnswer('Fue un placer poderte ayuda, si deseas volver al incio escribe: Menu ');
+
+const flowCotizar = addKeyword('1', { sensitive: true }).addAnswer(
     [
         '¡Claro! queremos escucharte y sorprenderte, para comunicarte con alguien de nuestro equipo comercial ingresa a una de las siguientes opciones:',
         ' ',
@@ -15,20 +17,21 @@ const flowCotizar = addKeyword([{ keyword: '1', exact: true }, 'cotizar', 'cotiz
         ' ',
         '🧲 Para servicios de Marketing Digital y Desarrollo Web 💻',
         ' ',
-        '📲 https://hab.me/dheZya1',
+        '📲 https://bit.ly/Iglu-Marketing-Digital',
         ' ',
         'También puedes compartirnos tu Brief o idea en el siguiente enlace:',
         'https://www.bullmarketing.com.co/cuentanos-brief/',
         ' ',
         '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permitenos y en un lapsus inferior a las 48hrs te estaremos contáctando._*',
         '\n*Recepción* Para contacto con una persona.',
-    ],
-    null,
-    null,
-    [flowSecundario]
-)
+    ])
+    .addAnswer('¿Necesitas ayuda con algo más?', {
+        delay: 5000
+    })
 
-const flowVacantes = addKeyword([{ keyword: '2', exact: true }, 'trabajar', 'vacantes', 'ofertas']).addAnswer(
+
+
+const flowVacantes = addKeyword('2', { sensitive: true }).addAnswer(
     [
         '🚀 Para trabajar con nosotros es muy sencillo, compártenos tu hoja de vida indicando el puesto que deseas ocupar o para la vacante en la cuál deseas participar en los siguientes correos:',
         ' ',
@@ -42,13 +45,13 @@ const flowVacantes = addKeyword([{ keyword: '2', exact: true }, 'trabajar', 'vac
         '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permitenos y en un lapsus inferior a las 48hrs te estaremos contáctando._*',
         ' ',
         '\n*Recepción* Para contacto con una persona.',
-    ],
-    null,
-    null,
-    [flowSecundario]
-)
+    ])
+    .addAnswer('¿Necesitas ayuda con algo más?', {
+        delay: 5000
+    })
 
-const flowComentario = addKeyword([{ keyword: '3', exact: true }, 'comentario', 'queja', 'PQR']).addAnswer(
+
+const flowComentario = addKeyword('3', { sensitive: true }).addAnswer(
     [
         '🙌 Para brindarnos tu comentario, PQR o reseña puedes escribirnos en:',
         ' ',
@@ -60,13 +63,12 @@ const flowComentario = addKeyword([{ keyword: '3', exact: true }, 'comentario', 
         ' ',
         '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permitenos y en un lapsus inferior a las 48hrs te estaremos contáctando._*',
         '\n*Recepción* Para contacto con una persona.',
-    ],
-    null,
-    null,
-    [flowSecundario]
-)
+    ])
+    .addAnswer('¿Necesitas ayuda con algo más?', {
+        delay: 5000
+    })
 
-const flowRRHH = addKeyword([{ keyword: '4', exact: true }, 'RRHH', 'recurso humano', 'recursos humanos', 'talento humano', 'contratación', 'contratacion']).addAnswer(
+const flowRRHH = addKeyword('4', { sensitive: true }).addAnswer(
     [
         '¡Claro! Estamos aquí para brindarte el mejor acompañamiento dentro de tus procesos de selección y nómina, para ello puedes seleccionar alguna de la siguientes opciones:',
         ' ',
@@ -81,13 +83,12 @@ const flowRRHH = addKeyword([{ keyword: '4', exact: true }, 'RRHH', 'recurso hum
         '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permitenos y en un lapsus inferior a las 48hrs te estaremos contáctando._*',
         ' ',
         '\n*Recepción* Para contacto con una persona.',
-    ],
-    null,
-    null,
-    [flowSecundario]
-)
+    ])
+    .addAnswer('¿Necesitas ayuda con algo más?', {
+        delay: 5000
+    })
 
-const flowContabilidad = addKeyword([{ keyword: '5', exact: true }, 'Contabilidad', 'Contable']).addAnswer(
+const flowContabilidad = addKeyword('5', { sensitive: true }).addAnswer(
     [
         '🙌 ¡Claro! ingresa al siguiente enlace que te direccionará con la persona del área encargada de contabilidad:',
         ' ',
@@ -100,13 +101,12 @@ const flowContabilidad = addKeyword([{ keyword: '5', exact: true }, 'Contabilida
         ' ',
         '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permitenos y en un lapsus inferior a las 48hrs te estaremos contáctando._*',
         '\n*Recepción* Para contacto con una persona.',
-    ],
-    null,
-    null,
-    [flowSecundario]
-)
+    ])
+    .addAnswer('¿Necesitas ayuda con algo más?', {
+        delay: 5000
+    })
 
-const flowTesoreria = addKeyword([{ keyword: '6', exact: true }, 'Tesorería']).addAnswer(
+const flowTesoreria = addKeyword('6', { sensitive: true }).addAnswer(
     [
         '🙌 ¡Claro! ingresa al siguiente enlace que te direccionará con la persona del área encargada de tesorería:',
         ' ',
@@ -118,13 +118,12 @@ const flowTesoreria = addKeyword([{ keyword: '6', exact: true }, 'Tesorería']).
         ' ',
         '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permitenos y en un lapsus inferior a las 48hrs te estaremos contáctando._*',
         '\n*Recepción* Para contacto con una persona.',
-    ],
-    null,
-    null,
-    [flowSecundario]
-)
+    ])
+    .addAnswer('¿Necesitas ayuda con algo más?', {
+        delay: 5000
+    })
 
-const flowProveedores = addKeyword([{ keyword: '7', exact: true }, 'Proveedores', 'Proveedor', 'Compras', 'Controller']).addAnswer(
+const flowProveedores = addKeyword('7', { sensitive: true }).addAnswer(
     [
         '🙌 ¡Claro! ingresa al siguiente enlace que te direccionará con la persona del área encargada de proveedores y compras:',
         ' ',
@@ -136,15 +135,16 @@ const flowProveedores = addKeyword([{ keyword: '7', exact: true }, 'Proveedores'
         ' ',
         '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permitenos y en un lapsus inferior a las 48hrs te estaremos contáctando._*',
         '\n*Recepción* Para contacto con una persona.',
-    ],
-    null,
-    null,
-    [flowSecundario]
-)
+    ])
+    .addAnswer('¿Necesitas ayuda con algo más?', {
+        delay: 5000
+    })
 
-const flowCertificaciones = addKeyword([{ keyword: '8', exact: true }, 'Certificaciones', 'Certificado laboral', 'Experiencia laboral']).addAnswer(
+const flowCertificaciones = addKeyword('8', { sensitive: true }).addAnswer(
     [
         '🙌 Claro! permítenos gestionar tu solicitud de *certificación laboral* para ello compártenos:',
+
+        //recepcion@bullmarketing.com.co
         ' ',
         '1. Número de documento',
         '2. Nombres y Apellidos Completos',
@@ -153,35 +153,17 @@ const flowCertificaciones = addKeyword([{ keyword: '8', exact: true }, 'Certific
         ' ',
         '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permitenos y en un lapsus inferior a las 48hrs te estaremos contáctando._*',
         '\n*Recepción* Para contacto con una persona.',
-    ],
-    null,
-    null,
-    [flowSecundario]
+    ])
+    .addAnswer('¿Necesitas ayuda con algo más?', {
+        delay: 5000
+    })
 
-)
-
-const flowPrincipal = addKeyword(['hola', 'holi', 'holu', 'ole', 'alo', 'oli', 'buenos días', 'buenas tardes', 'buenas noches', 'Menu'])
+const flowPrincipal = addKeyword(['hola', 'holi', 'holu', 'ole', 'alo', 'oli', 'buenas', 'buenos días', 'buenas tardes', 'buenas noches', 'Menu'])
     .addAnswer('Hola 👋, bienvenido a Bull Marketing la agencia donde ¡siempre se puede!')
-    .addAnswer('Para brindarte un servicio más personalizado compartenos los siguientes datos:')
-    .addAnswer('¿Cúal es tu nombre completo?', { capture: true }, (ctx) => {
-        console.log('Mensaje entrante: ', ctx.body)
-    })
-    .addAnswer('¿Cúal es tu número telefónico?', { capture: true }, (ctx) => {
-        console.log('Mensaje entrante: ', ctx.body)
-    })
-    .addAnswer('¿Cúal es tu correo electrónico?', { capture: true }, (ctx, { fallBack }) => {
-
-        if (!ctx.body.includes('@'))
-            return fallBack()
-        console.log('Mensaje entrante: ', ctx.body)
-    })
     .addAnswer(
         [
-            {
-                media: 'https://www.bullmarketing.com.co/wp-content/uploads/2022/09/Artboard-18-BULL-PARRILLA.jpg',
-            },
             '¡Comencemos! ¿En que te podemos ayudar? 🙌',
-            'Estas son nuestras opciones:',
+            'Por favor digita el numero de la opción que desees:',
             ' ',
             '👉 *1.Cotizar* Deseo cotizar un servicio.',
             '👉 *2.Vacantes* Deseo trabajar con ustedes.',
@@ -191,17 +173,13 @@ const flowPrincipal = addKeyword(['hola', 'holi', 'holu', 'ole', 'alo', 'oli', '
             '👉 *6.Tesorería* Deseo comunicarme con Tesorería.',
             '👉 *7.Proveedores* Deseo comunicarme con Proveedores y Compras.',
             '👉 *8.Certificaciones* Certificaciones laborales',
-        ],
-        null,
-        null,
-        [flowCotizar, flowVacantes, flowComentario, flowRRHH, flowContabilidad, flowTesoreria, flowProveedores, flowCertificaciones]
-    )
+        ])
 
-
-
+        // flowCotizar, flowVacantes, flowComentario, flowRRHH, flowContabilidad, flowTesoreria, flowProveedores, flowCertificaciones
+        
 const main = async () => {
     const adapterDB = new MockAdapter()
-    const adapterFlow = createFlow([flowPrincipal])
+    const adapterFlow = createFlow([flowPrincipal, flowCotizar, flowVacantes, flowComentario, flowRRHH, flowContabilidad, flowTesoreria, flowProveedores, flowCertificaciones, flowFin, flowMas])
     const adapterProvider = createProvider(BaileysProvider)
 
     createBot({

@@ -1,0 +1,301 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '573204773369@s.whatsapp.net',
+    fromMe: false,
+    id: '4C9E7E6E429948CF8369E73090D7A19C',
+    participant: undefined
+  },
+  messageTimestamp: 1703105503,
+  pushName: 'Sebastian Camargo',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '573204773369'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_cffa39a2-05d8-4675-ac6e-94d23f12dd57',
+  keyword: 'key_852dc7ae-85f8-4373-8487-62380ad80e75',
+  answer: 'Hola 👋, bienvenido a Bull Marketing la agencia donde ¡siempre se puede!',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '01b343d92816a57c7e6e85ae46117a70'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_20baee88-65c2-4ce3-81f8-7646c16836bf',
+  keyword: 'ans_cffa39a2-05d8-4675-ac6e-94d23f12dd57',
+  answer: '¡Comencemos! ¿En que te podemos ayudar? 🙌\n' +
+    'Por favor digita el numero de la opción que desees:\n' +
+    ' \n' +
+    '👉 *1.Cotizar* Deseo cotizar un servicio.\n' +
+    '👉 *2.Vacantes* Deseo trabajar con ustedes.\n' +
+    '👉 *3.Comentario* Deseo dejar un comentario.\n' +
+    '👉 *4.RRHH* Deseo comunicarme con Recurso Humano.\n' +
+    '👉 *5.Contabilidad* Deseo comunicarme con Contabilidad.\n' +
+    '👉 *6.Tesorería* Deseo comunicarme con Tesorería.\n' +
+    '👉 *7.Proveedores* Deseo comunicarme con Proveedores y Compras.\n' +
+    '👉 *8.Certificaciones* Certificaciones laborales',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'a08e36a49776c540ba5de05c888fcf1d'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573204773369@s.whatsapp.net',
+    fromMe: false,
+    id: 'B03372D4F4F5C57380D10090BDF0E7AF',
+    participant: undefined
+  },
+  messageTimestamp: 1703105508,
+  pushName: 'Sebastian Camargo',
+  broadcast: false,
+  message: Message {
+    conversation: '3',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '3',
+  from: '573204773369'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_76494b68-413f-4eb5-9227-445e440a24b1',
+  keyword: 'key_adc3b35f-8f5b-4509-8246-afd1b8916f3e',
+  answer: '🙌 Para brindarnos tu comentario, PQR o reseña puedes escribirnos en:\n' +
+    ' \n' +
+    '✔️ https://www.bullmarketing.com.co/contactenos/\n' +
+    ' \n' +
+    'También a nuestro correo electrónico:\n' +
+    ' \n' +
+    '✔️ info@bullmarketing.com.co\n' +
+    ' \n' +
+    '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permitenos y en un lapsus inferior a las 48hrs te estaremos contáctando._*\n' +
+    '\n' +
+    '*Recepción* Para contacto con una persona.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '95465d7b3099f5386c2125516fde3d7d'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_87534f05-b454-4bb6-a647-3b238e6fdc9b',
+  keyword: 'ans_76494b68-413f-4eb5-9227-445e440a24b1',
+  answer: '¿Necesitas ayuda con algo más?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 5000,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '0567649e3460d2b77650b35905f30993'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573204773369@s.whatsapp.net',
+    fromMe: false,
+    id: '5134DBD4A929F7FFE4DADFAF3AF4717B',
+    participant: undefined
+  },
+  messageTimestamp: 1703105519,
+  pushName: 'Sebastian Camargo',
+  broadcast: false,
+  message: Message {
+    conversation: 'No',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'No',
+  from: '573204773369'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_917001ab-0117-4c0c-bab1-e653c7bd2669',
+  keyword: 'key_5b3fff56-5926-4834-ab2b-7727c945f863',
+  answer: 'Fue un placer poderte ayuda, si deseas volver al incio escribe: Menu ',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'f43322d52a87b5c8a747cbd8a9733ca6'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573204773369@s.whatsapp.net',
+    fromMe: false,
+    id: 'A55EFBF8550FB7DE6E8D4E938FC72371',
+    participant: undefined
+  },
+  messageTimestamp: 1703105526,
+  pushName: 'Sebastian Camargo',
+  broadcast: false,
+  message: Message {
+    conversation: 'Menu',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Menu',
+  from: '573204773369'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_cffa39a2-05d8-4675-ac6e-94d23f12dd57',
+  keyword: 'key_852dc7ae-85f8-4373-8487-62380ad80e75',
+  answer: 'Hola 👋, bienvenido a Bull Marketing la agencia donde ¡siempre se puede!',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '01b343d92816a57c7e6e85ae46117a70'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_20baee88-65c2-4ce3-81f8-7646c16836bf',
+  keyword: 'ans_cffa39a2-05d8-4675-ac6e-94d23f12dd57',
+  answer: '¡Comencemos! ¿En que te podemos ayudar? 🙌\n' +
+    'Por favor digita el numero de la opción que desees:\n' +
+    ' \n' +
+    '👉 *1.Cotizar* Deseo cotizar un servicio.\n' +
+    '👉 *2.Vacantes* Deseo trabajar con ustedes.\n' +
+    '👉 *3.Comentario* Deseo dejar un comentario.\n' +
+    '👉 *4.RRHH* Deseo comunicarme con Recurso Humano.\n' +
+    '👉 *5.Contabilidad* Deseo comunicarme con Contabilidad.\n' +
+    '👉 *6.Tesorería* Deseo comunicarme con Tesorería.\n' +
+    '👉 *7.Proveedores* Deseo comunicarme con Proveedores y Compras.\n' +
+    '👉 *8.Certificaciones* Certificaciones laborales',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'a08e36a49776c540ba5de05c888fcf1d'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573204773369@s.whatsapp.net',
+    fromMe: false,
+    id: '5E4E39A6423FD4EE9A3484EE9A07A5DB',
+    participant: undefined
+  },
+  messageTimestamp: 1703105529,
+  pushName: 'Sebastian Camargo',
+  broadcast: false,
+  message: Message {
+    conversation: '8',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '8',
+  from: '573204773369'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_d55556dc-0c43-4acc-b30c-bef92149b6ba',
+  keyword: 'key_5e11da2e-1269-4ca1-ad96-13960791d22b',
+  answer: '🙌 Claro! permítenos gestionar tu solicitud de *certificación laboral* para ello compártenos:\n' +
+    ' \n' +
+    '1. Número de documento\n' +
+    '2. Nombres y Apellidos Completos\n' +
+    '3. Correo electrónico\n' +
+    '4. Proyecto\n' +
+    ' \n' +
+    '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permitenos y en un lapsus inferior a las 48hrs te estaremos contáctando._*\n' +
+    '\n' +
+    '*Recepción* Para contacto con una persona.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '6aad5b827429cb6a614c7f03a27ab241'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_165b0596-c066-4bc6-a7a2-0719983ed383',
+  keyword: 'ans_d55556dc-0c43-4acc-b30c-bef92149b6ba',
+  answer: '¿Necesitas ayuda con algo más?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 5000,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'abe853ea06cdf5b83f59d8b803467be7'
+}
