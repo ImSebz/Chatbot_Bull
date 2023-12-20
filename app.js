@@ -4,9 +4,11 @@ const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const MockAdapter = require('@bot-whatsapp/database/mock')
 
-const flowMas = addKeyword(['Si', 'Por favor', 'Porfavor']).addAnswer('Si deseas volver al menú principal, por favor escribe: Menu');
+const flowMas = addKeyword(['Si', 'Por favor', 'Porfavor']).addAnswer('✔️ Si deseas volver al menú principal, por favor escribe: Menu');
 
-const flowFin = addKeyword(['No', 'Gracias', 'Es todo']).addAnswer('Fue un placer poderte ayuda, si deseas volver al incio escribe: Menu ');
+const flowFin = addKeyword(['No', 'Gracias', 'Es todo']).addAnswer('Fue un placer poderte ayudar 😁, si deseas volver al incio escribe: Menu ');
+
+const flowAdios = addKeyword('Hasta luego', 'Chao', 'Adios', 'Nos vemos').addAnswer('Fue un placer poderte ayudar 😁, si deseas volver al incio escribe: Menu ');
 
 const flowCotizar = addKeyword('1', { sensitive: true }).addAnswer(
     [
@@ -142,9 +144,11 @@ const flowProveedores = addKeyword('7', { sensitive: true }).addAnswer(
 
 const flowCertificaciones = addKeyword('8', { sensitive: true }).addAnswer(
     [
-        '🙌 Claro! permítenos gestionar tu solicitud de *certificación laboral* para ello compártenos:',
+        '🙌 Claro! al siguiente correo adjunta los siguientes datos para poderte generar tu certificado laborar:',
 
         //recepcion@bullmarketing.com.co
+        ' ',
+        '☞ recepcion@bullmarketing.com.co',
         ' ',
         '1. Número de documento',
         '2. Nombres y Apellidos Completos',
@@ -179,7 +183,7 @@ const flowPrincipal = addKeyword(['hola', 'holi', 'holu', 'ole', 'alo', 'oli', '
         
 const main = async () => {
     const adapterDB = new MockAdapter()
-    const adapterFlow = createFlow([flowPrincipal, flowCotizar, flowVacantes, flowComentario, flowRRHH, flowContabilidad, flowTesoreria, flowProveedores, flowCertificaciones, flowFin, flowMas])
+    const adapterFlow = createFlow([flowPrincipal, flowCotizar, flowVacantes, flowComentario, flowRRHH, flowContabilidad, flowTesoreria, flowProveedores, flowCertificaciones, flowFin, flowMas, flowAdios])
     const adapterProvider = createProvider(BaileysProvider)
 
     createBot({
