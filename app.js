@@ -10,16 +10,16 @@ const flowBienvenida = addKeyword(EVENTS.WELCOME)
     .addAnswer('No pude entenderte 😞, para iniciar por favor escribe: *_Menú_*');
 
 const flowNotaDeVoz = addKeyword(EVENTS.VOICE_NOTE)
-.addAnswer('Gracias por comunicarte con Bull Marketing la agencia donde ¡siempre se puede!')
-.addAnswer('No pude entenderte 😞, para iniciar por favor escribe: *_Menú_*');
+    .addAnswer('Gracias por comunicarte con Bull Marketing la agencia donde ¡siempre se puede!')
+    .addAnswer('No pude entenderte 😞, para iniciar por favor escribe: *_Menú_*');
 
 const flowMas = addKeyword(['Si', 'Sí', 'Por favor', 'Porfavor'])
     .addAnswer('✔️ Si deseas volver al menú principal, por favor escribe: *_Menú_*');
 
-const flowAdios = addKeyword(['Hasta luego', 'Chao', 'Chau', 'Adios', 'Adiós', 'Nos vemos', 'No', 'Gracias', 'Es todo'], { sensitive: true })
+const flowAdios = addKeyword(['Hasta luego', 'Chao', 'Chau', 'Adios', 'Adiós', 'Nos vemos', 'No', 'Gracias', 'Es todo', 'no', 'chao', 'gracias', 'adios'], { sensitive: true })
     .addAnswer('Fue un placer poder ayudarte 😁, si deseas volver al inicio escribe: *_Menú_* ');
 
-const flowCotizar = addKeyword(['Cotizar', 'Cotizaciones', 'Cotizacion','Cotizacion' , '1'], { sensitive: true })
+const flowCotizar = addKeyword(['Cotizar', 'Cotizaciones', 'Cotizacion', 'Cotizacion', '1'], { sensitive: true })
     .addAnswer(
         [
             '¡Claro! queremos escucharte y sorprenderte, para comunicarte con alguien de nuestro equipo comercial ingresa a una de las siguientes opciones:',
@@ -42,7 +42,7 @@ const flowCotizar = addKeyword(['Cotizar', 'Cotizaciones', 'Cotizacion','Cotizac
 
 
 
-const flowVacantes = addKeyword(['Vacantes', '2'], { sensitive: true }).addAnswer(
+const flowVacantes = addKeyword(['Vacantes', 'vacantes', '2'], { sensitive: true }).addAnswer(
     [
         '🚀 Para trabajar con nosotros es muy sencillo, compártenos tu hoja de vida indicando el puesto que deseas ocupar o para la vacante en la cuál deseas participar en los siguientes correos:',
         ' ',
@@ -60,7 +60,7 @@ const flowVacantes = addKeyword(['Vacantes', '2'], { sensitive: true }).addAnswe
     });
 
 
-const flowComentario = addKeyword(['Comentario', 'Comentarios', '3'], { sensitive: true }).addAnswer(
+const flowComentario = addKeyword(['Comentario', 'Comentarios', 'comentario', '3'], { sensitive: true }).addAnswer(
     [
         '🙌 Para brindarnos tu comentario, PQR o reseña puedes escribirnos en:',
         ' ',
@@ -76,7 +76,7 @@ const flowComentario = addKeyword(['Comentario', 'Comentarios', '3'], { sensitiv
         delay: 1500
     });
 
-const flowRRHH = addKeyword(['Recursos', 'RRHH', '4'], { sensitive: true }).addAnswer(
+const flowRRHH = addKeyword(['Recursos', 'RRHH', 'rrhh', 'recursos', '4'], { sensitive: true }).addAnswer(
     [
         '¡Claro! Estamos aquí para brindarte el mejor acompañamiento dentro de tus procesos de selección y nómina, para ello puedes seleccionar alguna de la siguientes opciones:',
         ' ',
@@ -94,7 +94,7 @@ const flowRRHH = addKeyword(['Recursos', 'RRHH', '4'], { sensitive: true }).addA
         delay: 1500
     });
 
-const flowContabilidad = addKeyword(['Contabilidad', '5'], { sensitive: true }).addAnswer(
+const flowContabilidad = addKeyword(['Contabilidad', 'contabilidad', '5'], { sensitive: true }).addAnswer(
     [
         '🙌 ¡Claro! ingresa al siguiente enlace que te direccionará con la persona del área encargada de contabilidad:',
         ' ',
@@ -111,7 +111,7 @@ const flowContabilidad = addKeyword(['Contabilidad', '5'], { sensitive: true }).
         delay: 1500
     });
 
-const flowTesoreria = addKeyword(['Tesorería', 'Tesoreria', '6'], { sensitive: true }).addAnswer(
+const flowTesoreria = addKeyword(['Tesorería', 'Tesoreria','tesoreria','tesorería', '6'], { sensitive: true }).addAnswer(
     [
         '🙌 ¡Claro! ingresa al siguiente enlace que te direccionará con la persona del área encargada de tesorería:',
         ' ',
@@ -127,7 +127,7 @@ const flowTesoreria = addKeyword(['Tesorería', 'Tesoreria', '6'], { sensitive: 
         delay: 1500
     });
 
-const flowProveedores = addKeyword(['Proveedores', '7'], { sensitive: true }).addAnswer(
+const flowProveedores = addKeyword(['Proveedores','proveedores', '7'], { sensitive: true }).addAnswer(
     [
         '🙌 ¡Claro! ingresa al siguiente enlace que te direccionará con la persona del área encargada de proveedores y compras:',
         ' ',
@@ -143,7 +143,7 @@ const flowProveedores = addKeyword(['Proveedores', '7'], { sensitive: true }).ad
         delay: 1500
     });
 
-const flowCertificaciones = addKeyword(['Certificados', 'Certificaciones', '8'], { sensitive: true }).addAnswer(
+const flowCertificaciones = addKeyword(['Certificados', 'Certificaciones','certificados','certificaciones', '8'], { sensitive: true }).addAnswer(
     [
         '🙌 Claro! al siguiente correo adjunta los datos requeridos para poder generarte tu certificado laboral:',
 
