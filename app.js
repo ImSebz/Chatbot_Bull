@@ -161,7 +161,7 @@ const flowCertificaciones = addKeyword(['Certificados', 'Certificaciones', '8'],
         delay: 1500
     });
 
-const flowPrincipal = addKeyword(['hola', 'holi', 'holu', 'ole', 'alo', 'oli', 'buenas', 'buenos días', 'buenas tardes', 'buenas noches', 'Menu', 'Menú'])
+const flowPrincipal = addKeyword(['hola', 'holi', 'holu', 'ole', 'alo', 'oli', 'buenas', 'buenos días', 'buenas tardes', 'buenas noches', 'Menu', 'Menú', 'Buen', 'Buen dia'])
     .addAnswer('Hola 👋, bienvenido a Bull Marketing la agencia donde ¡siempre se puede!')
     .addAnswer(
         [
