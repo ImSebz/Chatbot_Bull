@@ -34,8 +34,7 @@ const flowCotizar = addKeyword(['Cotizar', 'Cotizaciones', 'Cotizacion','Cotizac
             'También puedes compartirnos tu Brief o idea en el siguiente enlace:',
             'https://www.bullmarketing.com.co/cuentanos-brief/',
             ' ',
-            '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permítenos y en un lapso inferior a las 48hrs te estaremos contáctando._*',
-            '\n*Recepción* Para contacto con una persona.',
+            '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permítenos y en un lapso inferior a las 48hrs te estaremos contáctando._*'
         ])
     .addAnswer('¿Necesitas ayuda con algo más?', {
         delay: 1500
@@ -54,9 +53,7 @@ const flowVacantes = addKeyword(['Vacantes', '2'], { sensitive: true }).addAnswe
         ' ',
         '📝 https://www.bullmarketing.com.co/formulario-hoja-de-vida/',
         ' ',
-        '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permítenos y en un lapso inferior a las 48hrs te estaremos contáctando._*',
-        ' ',
-        '\n*Recepción* Para contacto con una persona.',
+        '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permítenos y en un lapso inferior a las 48hrs te estaremos contáctando._*'
     ])
     .addAnswer('¿Necesitas ayuda con algo más?', {
         delay: 1500
@@ -73,8 +70,7 @@ const flowComentario = addKeyword(['Comentario', 'Comentarios', '3'], { sensitiv
         ' ',
         '✔️ info@bullmarketing.com.co',
         ' ',
-        '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permítenos y en un lapso inferior a las 48hrs te estaremos contactando._*',
-        '\n*Recepción* Para contacto con una persona.',
+        '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permítenos y en un lapso inferior a las 48hrs te estaremos contactando._*'
     ])
     .addAnswer('¿Necesitas ayuda con algo más?', {
         delay: 1500
@@ -92,9 +88,7 @@ const flowRRHH = addKeyword(['Recursos', 'RRHH', '4'], { sensitive: true }).addA
         ' ',
         '☞ https://hab.me/lyIqKnS',
         ' ',
-        '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permítenos y en un lapso inferior a las 48hrs te estaremos contáctando._*',
-        ' ',
-        '\n*Recepción* Para contacto con una persona.',
+        '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permítenos y en un lapso inferior a las 48hrs te estaremos contáctando._*'
     ])
     .addAnswer('¿Necesitas ayuda con algo más?', {
         delay: 1500
@@ -111,8 +105,7 @@ const flowContabilidad = addKeyword(['Contabilidad', '5'], { sensitive: true }).
         '☞ contadores@bullmarketing.com.co',
         '☞ contabilidad@v2vmarketing.com',
         ' ',
-        '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permítenos y en un lapso inferior a las 48hrs te estaremos contáctando._*',
-        '\n*Recepción* Para contacto con una persona.',
+        '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permítenos y en un lapso inferior a las 48hrs te estaremos contáctando._*'
     ])
     .addAnswer('¿Necesitas ayuda con algo más?', {
         delay: 1500
@@ -128,8 +121,7 @@ const flowTesoreria = addKeyword(['Tesorería', 'Tesoreria', '6'], { sensitive: 
         ' ',
         '☞ tesoreria@bullmarketing.com.co',
         ' ',
-        '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permítenos y en un lapso inferior a las 48hrs te estaremos contáctando._*',
-        '\n*Recepción* Para contacto con una persona.',
+        '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permítenos y en un lapso inferior a las 48hrs te estaremos contáctando._*'
     ])
     .addAnswer('¿Necesitas ayuda con algo más?', {
         delay: 1500
@@ -145,8 +137,7 @@ const flowProveedores = addKeyword(['Proveedores', '7'], { sensitive: true }).ad
         ' ',
         '☞ Compras@bullmarketing.com.co',
         ' ',
-        '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permítenos y en un lapso inferior a las 48hrs te estaremos contáctando._*',
-        '\n*Recepción* Para contacto con una persona.',
+        '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permítenos y en un lapso inferior a las 48hrs te estaremos contáctando._*'
     ])
     .addAnswer('¿Necesitas ayuda con algo más?', {
         delay: 1500
@@ -164,8 +155,7 @@ const flowCertificaciones = addKeyword(['Certificados', 'Certificaciones', '8'],
         '2. Nombres y Apellidos Completos',
         '3. Proyecto',
         ' ',
-        '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permítenos y en un lapso inferior a las 48hrs te estaremos contáctando._*',
-        '\n*Recepción* Para contacto con una persona.',
+        '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permítenos y en un lapso inferior a las 48hrs te estaremos contáctando._*'
     ])
     .addAnswer('¿Necesitas ayuda con algo más?', {
         delay: 1500
