@@ -7,17 +7,17 @@ const MockAdapter = require('@bot-whatsapp/database/mock');
 
 const flowBienvenida = addKeyword(EVENTS.WELCOME)
     .addAnswer('Gracias por comunicarte con Bull Marketing la agencia donde ¡siempre se puede!')
-    .addAnswer('No pude entenderte 😞, para iniciar por favor escribe: Menú');
+    .addAnswer('No pude entenderte 😞, para iniciar por favor escribe: *_Menú_*');
 
 const flowNotaDeVoz = addKeyword(EVENTS.VOICE_NOTE)
 .addAnswer('Gracias por comunicarte con Bull Marketing la agencia donde ¡siempre se puede!')
-.addAnswer('No pude entenderte 😞, para iniciar por favor escribe: Menú');
+.addAnswer('No pude entenderte 😞, para iniciar por favor escribe: *_Menú_*');
 
 const flowMas = addKeyword(['Si', 'Sí', 'Por favor', 'Porfavor'])
-    .addAnswer('✔️ Si deseas volver al menú principal, por favor escribe: Menú');
+    .addAnswer('✔️ Si deseas volver al menú principal, por favor escribe: *_Menú_*');
 
 const flowAdios = addKeyword(['Hasta luego', 'Chao', 'Chau', 'Adios', 'Adiós', 'Nos vemos', 'No', 'Gracias', 'Es todo'], { sensitive: true })
-    .addAnswer('Fue un placer poder ayudarte 😁, si deseas volver al inicio escribe: Menú ');
+    .addAnswer('Fue un placer poder ayudarte 😁, si deseas volver al inicio escribe: *_Menú_* ');
 
 const flowCotizar = addKeyword(['Cotizar', 'Cotizaciones', 'Cotizacion','Cotizacion' , '1'], { sensitive: true })
     .addAnswer(
@@ -82,11 +82,11 @@ const flowRRHH = addKeyword(['Recursos', 'RRHH', '4'], { sensitive: true }).addA
         ' ',
         'Nómina y seguridad social:',
         ' ',
-        '☞ https://hab.me/hqdNmzC',
+        '👉 https://hab.me/hqdNmzC',
         ' ',
         'Contratación y afiliaciones:',
         ' ',
-        '☞ https://hab.me/lyIqKnS',
+        '👉 https://hab.me/lyIqKnS',
         ' ',
         '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permítenos y en un lapso inferior a las 48hrs te estaremos contáctando._*'
     ])
@@ -98,12 +98,12 @@ const flowContabilidad = addKeyword(['Contabilidad', '5'], { sensitive: true }).
     [
         '🙌 ¡Claro! ingresa al siguiente enlace que te direccionará con la persona del área encargada de contabilidad:',
         ' ',
-        '☞ https://bit.ly/3YCPIHx',
+        '👉 https://bit.ly/3YCPIHx',
         ' ',
         'También puedes escribirnos a los siguientes correos:',
         ' ',
-        '☞ contadores@bullmarketing.com.co',
-        '☞ contabilidad@v2vmarketing.com',
+        '👉 contadores@bullmarketing.com.co',
+        '👉 contabilidad@v2vmarketing.com',
         ' ',
         '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permítenos y en un lapso inferior a las 48hrs te estaremos contáctando._*'
     ])
@@ -115,11 +115,11 @@ const flowTesoreria = addKeyword(['Tesorería', 'Tesoreria', '6'], { sensitive: 
     [
         '🙌 ¡Claro! ingresa al siguiente enlace que te direccionará con la persona del área encargada de tesorería:',
         ' ',
-        '☞ https://bit.ly/3YzxWF0',
+        '👉 https://bit.ly/3YzxWF0',
         ' ',
         'También puedes escribirnos a los siguiente correo:',
         ' ',
-        '☞ tesoreria@bullmarketing.com.co',
+        '👉 tesoreria@bullmarketing.com.co',
         ' ',
         '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permítenos y en un lapso inferior a las 48hrs te estaremos contáctando._*'
     ])
@@ -131,11 +131,11 @@ const flowProveedores = addKeyword(['Proveedores', '7'], { sensitive: true }).ad
     [
         '🙌 ¡Claro! ingresa al siguiente enlace que te direccionará con la persona del área encargada de proveedores y compras:',
         ' ',
-        '☞ https://hab.me/kUsyXZ9',
+        '👉 https://hab.me/kUsyXZ9',
         ' ',
         'También puedes escribirnos a los siguiente correo:',
         ' ',
-        '☞ Compras@bullmarketing.com.co',
+        '👉 Compras@bullmarketing.com.co',
         ' ',
         '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permítenos y en un lapso inferior a las 48hrs te estaremos contáctando._*'
     ])
@@ -180,7 +180,6 @@ const flowPrincipal = addKeyword(['hola', 'holi', 'holu', 'ole', 'alo', 'oli', '
 
 
 
-// flowCotizar, flowVacantes, flowComentario, flowRRHH, flowContabilidad, flowTesoreria, flowProveedores, flowCertificaciones
 
 const main = async () => {
     const adapterDB = new MockAdapter()
