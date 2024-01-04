@@ -6,10 +6,12 @@ const BaileysProvider = require('@bot-whatsapp/provider/baileys');
 const MockAdapter = require('@bot-whatsapp/database/mock');
 
 const flowBienvenida = addKeyword(EVENTS.WELCOME)
-    .addAnswer('Gracias por comunicarte con Bull Marketing la agencia donde ¡siempre se puede! No pude entenderte 😞, para iniciar por favor escribe: Menú');
+    .addAnswer('Gracias por comunicarte con Bull Marketing la agencia donde ¡siempre se puede!')
+    .addAnswer('No pude entenderte 😞, para iniciar por favor escribe: Menú');
 
 const flowNotaDeVoz = addKeyword(EVENTS.VOICE_NOTE)
-    .addAnswer('Gracias por comunicarte con Bull Marketing la agencia donde ¡siempre se puede! No pude entenderte 😞, para iniciar por favor escribe: Menú');
+.addAnswer('Gracias por comunicarte con Bull Marketing la agencia donde ¡siempre se puede!')
+.addAnswer('No pude entenderte 😞, para iniciar por favor escribe: Menú');
 
 const flowMas = addKeyword(['Si', 'Sí', 'Por favor', 'Porfavor'])
     .addAnswer('✔️ Si deseas volver al menú principal, por favor escribe: Menú');
