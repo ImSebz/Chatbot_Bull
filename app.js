@@ -166,7 +166,7 @@ const flowPrincipal = addKeyword(['hola', 'holi', 'holu', 'ole', 'alo', 'oli', '
     .addAnswer(
         [
             '¡Comencemos! ¿En qué te podemos ayudar? 🙌',
-            'Por favor digita el numero de la opción que desees:',
+            'Por favor digita el número de la opción que desees:',
             ' ',
             '👉 *1.Cotizar* Deseo cotizar un servicio.',
             '👉 *2.Vacantes* Deseo trabajar con ustedes.',
