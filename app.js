@@ -111,7 +111,7 @@ const flowContabilidad = addKeyword(['Contabilidad', 'contabilidad', '5'], { sen
         delay: 1500
     });
 
-const flowTesoreria = addKeyword(['Tesorería', 'Tesoreria', 'tesoreria', 'tesorería', '6'], { sensitive: true }).addAnswer(
+const flowTesoreria = addKeyword(['Tesorería', 'Tesoreria','tesoreria','tesorería', '6'], { sensitive: true }).addAnswer(
     [
         '🙌 ¡Claro! ingresa al siguiente enlace que te direccionará con la persona del área encargada de tesorería:',
         ' ',
@@ -127,7 +127,7 @@ const flowTesoreria = addKeyword(['Tesorería', 'Tesoreria', 'tesoreria', 'tesor
         delay: 1500
     });
 
-const flowProveedores = addKeyword(['Proveedores', 'proveedores', '7'], { sensitive: true }).addAnswer(
+const flowProveedores = addKeyword(['Proveedores','proveedores', '7'], { sensitive: true }).addAnswer(
     [
         '🙌 ¡Claro! ingresa al siguiente enlace que te direccionará con la persona del área encargada de proveedores y compras:',
         ' ',
@@ -143,7 +143,7 @@ const flowProveedores = addKeyword(['Proveedores', 'proveedores', '7'], { sensit
         delay: 1500
     });
 
-const flowCertificaciones = addKeyword(['Certificados', 'Certificaciones', 'certificados', 'certificaciones', '8'], { sensitive: true }).addAnswer(
+const flowCertificaciones = addKeyword(['Certificados', 'Certificaciones','certificados','certificaciones', '8'], { sensitive: true }).addAnswer(
     [
         '🙌 Claro! al siguiente correo adjunta los datos requeridos para poder generarte tu certificado laboral:',
 
@@ -182,25 +182,17 @@ const flowPrincipal = addKeyword(['hola', 'holi', 'holu', 'ole', 'alo', 'oli', '
 
 
 const main = async () => {
-    try {
-        const adapterDB = new MockAdapter();
-        const adapterFlow = createFlow([
-            flowBienvenida, flowNotaDeVoz, flowPrincipal, flowCotizar,
-            flowVacantes, flowComentario, flowRRHH, flowContabilidad,
-            flowTesoreria, flowProveedores, flowCertificaciones, flowMas, flowAdios
-        ]);
-        const adapterProvider = createProvider(BaileysProvider);
+    const adapterDB = new MockAdapter()
+    const adapterFlow = createFlow([flowBienvenida, flowNotaDeVoz, flowPrincipal, flowCotizar, flowVacantes, flowComentario, flowRRHH, flowContabilidad, flowTesoreria, flowProveedores, flowCertificaciones, flowMas, flowAdios])
+    const adapterProvider = createProvider(BaileysProvider)
 
-        createBot({
-            flow: adapterFlow,
-            provider: adapterProvider,
-            database: adapterDB,
-        });
+    createBot({
+        flow: adapterFlow,
+        provider: adapterProvider,
+        database: adapterDB,
+    })
 
-        QRPortalWeb();
-    } catch (error) {
-        console.error('Error in main function:', error);
-    }
-};
+    QRPortalWeb()
+}
 
-main();
+main()
