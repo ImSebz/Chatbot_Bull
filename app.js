@@ -206,3 +206,8 @@ const main = async () => {
 main().catch(error => {
     console.error('Unhandled error in main function:', error);
 });
+
+// Global unhandled rejection handler
+process.on('unhandledRejection', (reason, promise) => {
+    console.error('Unhandled Rejection at:', promise, 'reason:', reason);
+});
