@@ -46,8 +46,7 @@ const flowVacantes = addKeyword(['Vacantes', 'vacantes', '2'], { sensitive: true
     [
         '🚀 Para trabajar con nosotros es muy sencillo, compártenos tu hoja de vida indicando el puesto que deseas ocupar o para la vacante en la cuál deseas participar en los siguientes correos:',
         ' ',
-        '➜📬 alejandra.quintero@bullmarketing.com.co',
-        '➜📬 kimberly.parra@bullmarketing.com.co',
+        '➜📬 auxiliar.talento@bullmarketing.com.co',
         ' ',
         'O también puedes diligenciar el siguiente formulario:',
         ' ',
