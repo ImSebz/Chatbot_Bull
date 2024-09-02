@@ -1,9 +1,9 @@
 const { createBot, createProvider, createFlow, addKeyword } = require('@bot-whatsapp/bot');
 const { EVENTS } = require('@bot-whatsapp/bot');
 
-const QRPortalWeb = require('@bot-whatsapp/portal');
-const BaileysProvider = require('@bot-whatsapp/provider/baileys');
-const MockAdapter = require('@bot-whatsapp/database/mock');
+const QRPortalWeb = require('@bot-whatsapp/portal')
+const BaileysProvider = require('@bot-whatsapp/provider/baileys')
+const MockAdapter = require('@bot-whatsapp/database/mock')
 
 const flowBienvenida = addKeyword(EVENTS.WELCOME)
     .addAnswer('Gracias por comunicarte con Bull Marketing la agencia donde ¡siempre se puede!')
@@ -178,35 +178,18 @@ const flowPrincipal = addKeyword(['hola', 'holi', 'holu', 'ole', 'alo', 'oli', '
         ]);
 
 
-
-
 const main = async () => {
-    try {
-        const adapterDB = new MockAdapter();
-        const adapterFlow = createFlow([
-            flowBienvenida, flowNotaDeVoz, flowPrincipal, flowCotizar,
-            flowVacantes, flowComentario, flowRRHH, flowContabilidad,
-            flowTesoreria, flowProveedores, flowCertificaciones, flowMas, flowAdios
-        ]);
-        const adapterProvider = createProvider(BaileysProvider);
+    const adapterDB = new MockAdapter()
+    const adapterFlow = createFlow([flowBienvenida, flowNotaDeVoz, flowMas, flowAdios, flowCotizar, flowVacantes, flowComentario, flowRRHH, flowContabilidad, flowTesoreria, flowProveedores, flowCertificaciones, flowPrincipal])
+    const adapterProvider = createProvider(BaileysProvider)
 
-        createBot({
-            flow: adapterFlow,
-            provider: adapterProvider,
-            database: adapterDB,
-        });
+    createBot({
+        flow: adapterFlow,
+        provider: adapterProvider,
+        database: adapterDB,
+    })
 
-        QRPortalWeb();
-    } catch (error) {
-        console.error('Error in main function:', error);
-    }
-};
+    QRPortalWeb()
+}
 
-main().catch(error => {
-    console.error('Unhandled error in main function:', error);
-});
-
-// Global unhandled rejection handler
-process.on('unhandledRejection', (reason, promise) => {
-    console.error('Unhandled Rejection at:', promise, 'reason:', reason);
-});
+main()

@@ -4,7 +4,7 @@
     "description": "",
     "main": "app.js",
     "scripts": {
-        "prestart": "npx eslint .",
+        "prestart": "npx eslint . --no-ignore",
         "pre-copy": "cd .. && npm run  copy.lib base-baileys-memory",
         "start": "node app.js"
     },
@@ -24,8 +24,5 @@
         "eslint": "^8.52.0"
     },
     "author": "",
-    "license": "ISC",
-    "engines": {
-        "node": ">=14.0.0"
-    }
+    "license": "ISC"
 }
