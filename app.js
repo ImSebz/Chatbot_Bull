@@ -24,12 +24,14 @@ const flowCotizar = addKeyword(['Cotizar', 'Cotizaciones', 'Cotizacion', 'Cotiza
         [
             '¡Claro! queremos escucharte y sorprenderte, para comunicarte con alguien de nuestro equipo comercial ingresa a una de las siguientes opciones:',
             ' ',
-            '📲 https://hab.me/A12z8BH',
-            '📲 https://hab.me/kthQ9LK',
+            '📲 https://bit.ly/3zhFYeX',
+            '📲 https://bit.ly/3zl5S1o',
+            '📲 https://bit.ly/3B4YNT9',
+            '📲 https://bit.ly/3XfmlfF',
             ' ',
             '🧲 Para servicios de Marketing Digital y Desarrollo Web 💻',
             ' ',
-            '📲 https://bit.ly/Iglu-Marketing-Digital',
+            '📲 https://bit.ly/4dUpyZ2',
             ' ',
             'También puedes compartirnos tu Brief o idea en el siguiente enlace:',
             'https://www.bullmarketing.com.co/cuentanos-brief/',
@@ -81,11 +83,11 @@ const flowRRHH = addKeyword(['Recursos', 'RRHH', 'rrhh', 'recursos', '4'], { sen
         ' ',
         'Nómina y seguridad social:',
         ' ',
-        '👉 https://hab.me/hqdNmzC',
+        '👉 https://bit.ly/4cXnSg4',
         ' ',
         'Contratación y afiliaciones:',
         ' ',
-        '👉 https://hab.me/lyIqKnS',
+        '👉 auxiliar.talento@bullmarketing.com.co',
         ' ',
         '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permítenos y en un lapso inferior a las 48hrs te estaremos contáctando._*'
     ])
@@ -97,12 +99,11 @@ const flowContabilidad = addKeyword(['Contabilidad', 'contabilidad', '5'], { sen
     [
         '🙌 ¡Claro! ingresa al siguiente enlace que te direccionará con la persona del área encargada de contabilidad:',
         ' ',
-        '👉 https://bit.ly/3YCPIHx',
+        '👉 https://bit.ly/3z5gQrX',
         ' ',
         'También puedes escribirnos a los siguientes correos:',
         ' ',
         '👉 contadores@bullmarketing.com.co',
-        '👉 contabilidad@v2vmarketing.com',
         ' ',
         '*_Nuestros tiempos de respuesta pueden variar de acuerdo a la solicitud por lo cual permítenos y en un lapso inferior a las 48hrs te estaremos contáctando._*'
     ])
@@ -114,7 +115,7 @@ const flowTesoreria = addKeyword(['Tesorería', 'Tesoreria', 'tesoreria', 'tesor
     [
         '🙌 ¡Claro! ingresa al siguiente enlace que te direccionará con la persona del área encargada de tesorería:',
         ' ',
-        '👉 https://bit.ly/3YzxWF0',
+        '👉 https://bit.ly/3z5gQrX',
         ' ',
         'También puedes escribirnos a los siguiente correo:',
         ' ',
@@ -130,7 +131,7 @@ const flowProveedores = addKeyword(['Proveedores', 'proveedores', '7'], { sensit
     [
         '🙌 ¡Claro! ingresa al siguiente enlace que te direccionará con la persona del área encargada de proveedores y compras:',
         ' ',
-        '👉 https://hab.me/kUsyXZ9',
+        '👉 https://bit.ly/3MHqrIp',
         ' ',
         'También puedes escribirnos a los siguiente correo:',
         ' ',
@@ -145,8 +146,6 @@ const flowProveedores = addKeyword(['Proveedores', 'proveedores', '7'], { sensit
 const flowCertificaciones = addKeyword(['Certificados', 'Certificaciones', 'certificados', 'certificaciones', '8'], { sensitive: true }).addAnswer(
     [
         '🙌 Claro! al siguiente correo adjunta los datos requeridos para poder generarte tu certificado laboral:',
-
-        //recepcion@bullmarketing.com.co
         ' ',
         '➜📬 recepcion@bullmarketing.com.co',
         ' ',
